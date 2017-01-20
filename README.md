@@ -87,7 +87,7 @@ Trucker works well with the [Laravel](http://laravel.com) framework.  If your us
 php artisan vendor:publish indatus/trucker
 ````
 
-The final step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
+The final step is to add the service provider. Open `config/app.php`, and add a new item to the providers array.
 
     'Trucker\TruckerServiceProvider::class'
 
